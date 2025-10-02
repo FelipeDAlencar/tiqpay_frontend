@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import "tailwindcss";
+
+html,
+span,
+body {
+  font-family: Inter !important;
+  box-sizing: border-box;
+
+}
+
+:root {
+  --color-black: #212121;
+  --color-blacksub: #212121;
+  /* cinza */
+  --color-bluelink: #4067e6;
+  --color-greymenu: #777777;
+  --color-blackfeedback: #3D3D3D;
+  --color-greyfeedback: #717171;
+  --color-green: #26BC7D;
+
+  /* azul */
+}
+
+
+.transition-height {
+  transition: max-height 0.5s ease-in-out, height 0.5s ease-in-out;
+}
+
+.CustomSelect {
+  background-image: url('data:image/svg+xml,%3csvg fill="none" viewBox="0 0 24 24" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"%3e%3cpath stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M19 9l-7 7-7-7" /%3e%3c/svg%3e');
+  background-position: right 0.5rem center;
+  background-repeat: no-repeat;
+  padding-right: 1rem;
+  background-size: 18px 18px;
+  appearance: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 5px !important;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff;
+  margin: 7px;
+}
+
+
+.greyfeedback12w400 {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--color-greyfeedback);
+}
+
+
+.blackfeddback12w500 {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-blackfeedback);
+}
+
+.greyfeedback12w500 {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-greyfeedback);
+}
+
+
+.black20w600 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-black);
+}
+
+.blacksub16w400 {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-blacksub);
+}
+
+
+.black16w500 {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-blacksub);
+}
+
+.black16w600 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-blacksub);
+}
+
+.green16w600 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-green);
+}
+
+
+.bluelink14w400 {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-bluelink);
+  cursor: pointer;
+}
+
+
+.greymenu12w500 {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-greymenu);
+}
+
+.greymenu12w600 {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-greymenu);
+}
+
+
+.black14w500 {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-black);
+}
+
+
+.brand {
+  font-family: 'Atkinson Hyperlegible' !important;
+
+}
+
+svg.star-svg {
+  display: inline;
+}
